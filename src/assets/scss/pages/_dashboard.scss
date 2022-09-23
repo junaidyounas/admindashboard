@@ -1,0 +1,10 @@
+@import '../components/aside';
+@import '../components/main';
+
+.container {
+    width: 96%;
+    display:grid;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
