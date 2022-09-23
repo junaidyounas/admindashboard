@@ -8,7 +8,7 @@ function AsideBar({}: Props) {
             <div className="top">
                 <div className="logo">
                     <img src={images.logo} alt="" />
-                    <h1>EGA<span className='danger'>TOR</span></h1>
+                    <h1>JUN<span className='danger'>AID</span></h1>
                 </div>
                 <div className="close" id="close-btn">
                     <CloseSharp />
