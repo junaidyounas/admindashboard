@@ -22,6 +22,55 @@ main {
             border-radius: var(--card-border-radius);
             margin-top: 1rem;
             box-shadow: var(--box-shadow);
+            transition: all 300ms ease;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+
+        .sales {
+            .icon {
+                background: var(--color-primary);
+                color: var(--color-white);
+                padding: 0.5rem;
+                border-radius: 50%;
+                font-size: 2rem;
+            }
+            .middle {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .progress {
+                    position: relative;
+                    width: 85px;
+                    height: 85px;
+                    border-radius: 50%;
+                    & > svg {
+                        display: flex;
+                        width: 7rem;
+                        height: 7rem;
+                        align-items: center;
+                        justify-content: center;
+
+                        
+                    }
+                    & > svg > circle {
+                        fill: none;
+                        stroke: var(--color-primary);
+                        stroke-width: 14;
+                        stroke-linecap: round;
+                        transform: translate(7px, 7px);
+                        stroke-dashoffset: 92;
+                        stroke-dasharray: 110;
+                    }
+                }
+            }
+            .left {
+                & > h3 {
+                    margin: 1rem 0 0.6rem;
+                    font-size: 1rem;
+                }
+            }
         }
     }
 }

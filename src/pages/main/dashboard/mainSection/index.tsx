@@ -1,4 +1,6 @@
+// https://www.youtube.com/watch?v=BOF79TAIkYQ&ab_channel=EGATOR
 import React from 'react'
+
 import { AnalyticsSharp } from '@mui/icons-material';
 type Props = {}
 
@@ -18,7 +20,9 @@ export default function MainSection({ }: Props) {
                             <h1>$25,000</h1>
                         </div>
                         <div className="progress">
-                            <svg><circle cx='38' cy='38' r='36' /></svg>
+                            <svg>
+                                <circle cx='38' cy='38' r='36' />
+                            </svg>
                             <div className="number">
                                 <p>81%</p>
                             </div>
